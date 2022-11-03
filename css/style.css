@@ -45,10 +45,17 @@ button {
   padding: 10px 15px;
 
 }
+a{
+  text-decoration: none;
+}
 p{
   font-size: 17px;
   line-height: 30px;
   margin-bottom: 15px;
+}
+h3{ 
+  font-size: 30px;
+  margin-bottom: 25px;
 }
 /* # Navbar */
 
@@ -74,7 +81,6 @@ p{
   text-align: center;
 }
 .navbar-menu ul a {
-  text-decoration: none;
   color: white;
   padding: 20px;
 }
@@ -124,15 +130,6 @@ p{
   background-color: black;
   border-color: black;
 }
-
-
-
-
-
-
-
-
-
 
 
 
@@ -186,9 +183,6 @@ section > .container {
   margin-bottom: 30px;
 }
 
-
-
-
 .full-col{
   text-align: center;
   padding: 65px;
@@ -199,35 +193,20 @@ section:last-child {
   height: 1200px;
 
 }
-h3{ 
-  font-size: 30px;
-  margin-bottom: 30px;
 
-}
-#download-two{
+#download-two,#download-two a{
   color: white;
   background-color: rgb(104, 104, 255);
   border-color: rgb(104, 104, 255);
   font-size: 17px;
-  padding: 15px 32px;
+  padding: 15px 15px;
   border-radius: 30px;
 }
-.border{
-  border: 2px black dashed;
-}
+
 #stars{
-  width: 550px;
+  width: 560px;
   height: auto;
 }
-
-
-
-
-
-
-
-
-
 
 
 
@@ -245,19 +224,19 @@ footer {
   height: 600px;
   padding-bottom: 30px;
   margin-bottom: 30px;
-  border-bottom: 1px solid purple;
+  border-bottom: 0.1px solid rgb(129, 129, 252);
 
   display: flex;
 }
 
 .footer-top .footer-left {
   flex-basis: 30%;
-  background-color: pink;
+  padding: 30px;
 }
 
 .footer-top .footer-right {
   flex-basis: 70%;
-  background-color: #20b2aa;
+  padding: 30px;
 }
 
 .footer-nav {
@@ -275,10 +254,41 @@ footer {
   justify-content: space-between;
   align-items: center;
   padding: 10px;
-  background-color: aquamarine;
+
 }
 
-.footer-bottom > * {
+.footer-bottom button {
+  color: white;
   padding: 5px 10px;
-  background-color: yellow;
+  background-color: rgb(129, 129, 252);
+  border-color: rgb(129, 129, 252);
 }
+
+.nav-col ul li a:not(.blue-text){
+  color: white;
+}
+.nav-col ul li a{
+  line-height: 35px;
+}
+.blue-text{
+  color:rgb(129, 129, 252);
+ }
+ul{
+  padding: 0;
+  list-style-position: inside;
+  list-style: none;
+}
+
+select{
+  margin-bottom: 25px;
+}
+ #row{
+  display: block;
+  font-size: 20px;
+
+ }
+ #row>*{
+  padding: 0px 7px;
+  color: white;
+ }
+
