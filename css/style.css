@@ -25,16 +25,14 @@ body {
   flex-direction: row-reverse;
 }
 
-.debug .border {
-  border: 2px dashed black;
-}
+
 
 .bg-white {
   background-color: white;
 }
 
 .bg-gray {
-  background-color: l5ightgray;
+  background-color: lightgray;
 }
 
 header {
@@ -44,8 +42,8 @@ header {
   background-repeat:  no-repeat;
 }
 button {
-  border-radius: 20px;
-  padding: 12px;
+  border-radius: 25px;
+  padding: 10px 15px;
 
 }
 /* # Navbar */
@@ -79,8 +77,8 @@ button {
 
 .navbar-actions {
   text-align: right;
-}
 
+}
 
 /* # Jumbotron */
 
@@ -97,7 +95,34 @@ button {
   width: 50%;
   /* height: 100%; */
   /* margin: 0 auto; */
-  background-color: violet;
+  text-align: center;
+  color: white;
+  padding-top: 50px;
+}
+
+.jumbotron-text h1{
+  font-size: 50px;
+  margin-bottom: 40px;
+}
+.jumbotron-text p{
+  font-size: 17px;
+  line-height: 27px;
+  margin-bottom: 15px;
+}
+.jumbotron-button > *{
+  padding: 15px 30px;
+  margin: 10px;
+  font-size: 17px;
+}
+#download{
+  color: black;
+  background-color: white;
+  border-color: white;
+}
+#open-browser{
+  color: white;
+  background-color: black;
+  border-color: black;
 }
 
 /* # Main & sections */
