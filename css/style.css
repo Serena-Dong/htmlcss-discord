@@ -25,14 +25,13 @@ body {
   flex-direction: row-reverse;
 }
 
-
-
 .bg-white {
   background-color: white;
+  margin: 50px;
 }
 
 .bg-gray {
-  background-color: lightgray;
+  background-color: rgb(245, 244, 244);
 }
 
 header {
@@ -45,6 +44,11 @@ button {
   border-radius: 25px;
   padding: 10px 15px;
 
+}
+p{
+  font-size: 17px;
+  line-height: 30px;
+  margin-bottom: 15px;
 }
 /* # Navbar */
 
@@ -104,11 +108,7 @@ button {
   font-size: 50px;
   margin-bottom: 40px;
 }
-.jumbotron-text p{
-  font-size: 17px;
-  line-height: 27px;
-  margin-bottom: 15px;
-}
+
 .jumbotron-button > *{
   padding: 15px 30px;
   margin: 10px;
@@ -125,10 +125,21 @@ button {
   border-color: black;
 }
 
+
+
+
+
+
+
+
+
+
+
+
 /* # Main & sections */
 section {
-  padding: 50px;
-  height: 600px;
+  padding: 70px;
+  height: 700px;
 }
 
 section > .container {
@@ -137,18 +148,87 @@ section > .container {
 
 .flex > .small-col {
   flex-basis: 40%;
-  background-color: pink;
+  padding: 40px;
 }
 
 .flex > .large-col {
   flex-basis: 60%;
-  background-color: dodgerblue;
 }
 
 .flex > .full-col {
   flex-basis: 100%;
-  background-color: darkgreen;
 }
+
+#item-one{
+  background-image: url(/img/item1.svg);
+  background-repeat: no-repeat;
+}
+#item-two{
+  background-image: url(/img/item2.svg);
+  background-repeat: no-repeat;
+}
+#item-three{
+  background-image: url(/img/item3.svg);
+  background-repeat: no-repeat;
+}
+#item-four{
+  background-image: url(/img/item4-big.svg);
+  background-repeat: no-repeat;
+  height: 550px;
+
+}
+
+.small-col h2, .full-col h2{
+  font-size: 51px;
+  margin-bottom: 30px;
+}
+
+
+
+
+.full-col{
+  text-align: center;
+  padding: 65px;
+
+}
+section:last-child {
+  padding: 70px;
+  height: 1200px;
+
+}
+h3{ 
+  font-size: 30px;
+  margin-bottom: 30px;
+
+}
+#download-two{
+  color: white;
+  background-color: rgb(104, 104, 255);
+  border-color: rgb(104, 104, 255);
+  font-size: 17px;
+  padding: 15px 32px;
+  border-radius: 30px;
+}
+.border{
+  border: 2px black dashed;
+}
+#stars{
+  width: 550px;
+  height: auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* # Footer */
 
