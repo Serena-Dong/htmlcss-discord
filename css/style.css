@@ -73,7 +73,7 @@ h3{
 
 }
 .navbar-logo{
-  background-image: url(/img/logo.svg);
+  background-image: url(./img/logo.svg);
   background-repeat: no-repeat;
 }
 .navbar-menu {
