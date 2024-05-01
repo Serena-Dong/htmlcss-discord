@@ -37,26 +37,32 @@ body {
 header {
   background-color: lightblue;
   background-image: url("../img/jumbo.png");
-  background-size: 1700px ;
-  background-repeat:  no-repeat;
+  background-size: 1700px;
+  background-repeat: no-repeat;
 }
+
 button {
   border-radius: 25px;
   padding: 10px 15px;
 
+  cursor: pointer;
 }
-a{
+
+a {
   text-decoration: none;
 }
-p{
+
+p {
   font-size: 17px;
   line-height: 30px;
   margin-bottom: 15px;
 }
-h3{ 
+
+h3 {
   font-size: 30px;
   margin-bottom: 25px;
 }
+
 /* # Navbar */
 
 .navbar {
@@ -67,19 +73,22 @@ h3{
   justify-content: space-between;
 }
 
-.navbar > * {
+.navbar>* {
   padding: 20px;
   flex-basis: 20%;
 
 }
-.navbar-logo{
+
+.navbar-logo {
   background-image: url(./img/logo.svg);
   background-repeat: no-repeat;
 }
+
 .navbar-menu {
   flex-grow: 1;
   text-align: center;
 }
+
 .navbar-menu ul a {
   color: white;
   padding: 20px;
@@ -110,22 +119,18 @@ h3{
   padding-top: 50px;
 }
 
-.jumbotron-text h1{
+.jumbotron-text h1 {
   font-size: 50px;
   margin-bottom: 40px;
 }
 
-.jumbotron-button > *{
+.jumbotron-button>* {
   padding: 15px 30px;
   margin: 10px;
   font-size: 17px;
 }
-#download{
-  color: black;
-  background-color: white;
-  border-color: white;
-}
-#open-browser{
+
+#open-browser {
   color: white;
   background-color: black;
   border-color: black;
@@ -139,36 +144,39 @@ section {
   height: 700px;
 }
 
-section > .container {
+section>.container {
   height: 100%;
 }
 
-.flex > .small-col {
+.flex>.small-col {
   flex-basis: 40%;
   padding: 40px;
 }
 
-.flex > .large-col {
+.flex>.large-col {
   flex-basis: 60%;
 }
 
-.flex > .full-col {
+.flex>.full-col {
   flex-basis: 100%;
 }
 
-#item-one{
+#item-one {
   background-image: url(../img/item1.svg);
   background-repeat: no-repeat;
 }
-#item-two{
+
+#item-two {
   background-image: url(../img/item2.svg);
   background-repeat: no-repeat;
 }
-#item-three{
+
+#item-three {
   background-image: url(../img/item3.svg);
   background-repeat: no-repeat;
 }
-#item-four{
+
+#item-four {
   background-image: url(../img/item4-big.svg);
   background-repeat: no-repeat;
   height: 550px;
@@ -178,23 +186,26 @@ section > .container {
 
 }
 
-.small-col h2, .full-col h2{
+.small-col h2,
+.full-col h2 {
   font-size: 51px;
   margin-bottom: 30px;
 }
 
-.full-col{
+.full-col {
   text-align: center;
   padding: 65px;
 
 }
+
 section:last-child {
   padding: 70px;
   height: 1200px;
 
 }
 
-#download-two,#download-two a{
+#download-two,
+#download-two a {
   color: white;
   background-color: rgb(104, 104, 255);
   border-color: rgb(104, 104, 255);
@@ -203,13 +214,10 @@ section:last-child {
   border-radius: 30px;
 }
 
-#stars{
+#stars {
   width: 560px;
   height: auto;
 }
-
-
-
 
 
 /* # Footer */
@@ -245,7 +253,7 @@ footer {
   /* background-color: #fff; */
 }
 
-.footer-nav > div {
+.footer-nav>div {
   flex-basis: 25%;
 }
 
@@ -264,31 +272,84 @@ footer {
   border-color: rgb(129, 129, 252);
 }
 
-.nav-col ul li a:not(.blue-text){
+.nav-col ul li a:not(.blue-text) {
   color: white;
 }
-.nav-col ul li a{
+
+.nav-col ul li a {
   line-height: 35px;
 }
-.blue-text{
-  color:rgb(129, 129, 252);
- }
-ul{
+
+.blue-text {
+  color: rgb(129, 129, 252);
+}
+
+ul {
   padding: 0;
   list-style-position: inside;
   list-style: none;
 }
 
-select{
+select {
   margin-bottom: 25px;
 }
- #row{
+
+#row {
   display: block;
   font-size: 20px;
 
- }
- #row>*{
+}
+
+#row>* {
   padding: 0px 7px;
   color: white;
- }
+}
 
+/* Animations */
+.btn {
+  transition: background-color 0.3s ease-in-out;
+}
+
+.btn-white {
+  color: #000000;
+  background-color: #FFFFFF;
+  border-color: black;
+}
+
+.btn-black {
+  color: #FFFFFF;
+  background-color: #000000;
+  border-color: black;
+}
+
+.btn-purple {
+  color: white;
+  background-color: rgb(104, 104, 255);
+  border-color: rgb(104, 104, 255);
+  font-size: 17px;
+  padding: 15px 15px;
+  border-radius: 30px;
+}
+
+.btn-white:hover {
+  color: #000000;
+  background-color: #d8d8d8;
+  border-color: black;
+}
+
+.btn-black:hover {
+  color: #FFFFFF;
+  background-color: #262626;
+  border-color: black;
+}
+
+.btn-purple:hover {
+  background-color: rgb(153, 153, 255);
+}
+
+.nav-col ul li a:hover,
+ul li .fa-brands:hover,
+.navbar ul a:hover {
+  color: rgb(160, 160, 160);
+  transition: color 0.2s ease-in-out;
+}

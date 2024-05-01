@@ -1,182 +1,192 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Discord Blocks</title>
 
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
-      integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    />
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Discord Blocks</title>
 
-    <link rel="stylesheet" href="css/style.css" />
-  </head>
-  <body class="debug">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+    integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
 
-    <!-- Header -->
-    <header>
-      <nav class="navbar container border">
-        <div class="navbar-logo border"></div>
-        <div class="navbar-menu border">
-          <ul>
-            <a href="">Scarica</a>
-            <a href="">Perché Discord</a>
-            <a href="">Nitro</a>
-            <a href="">Sicurezza</a>
-            <a href="">Assistenza</a>
-          </ul>
-        </div>
-        <div class="navbar-actions border"><button> <a href="">Accedi</a> </button></div>
-      </nav>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
 
-      <!-- Jumbotron -->
-      <div class="jumbotron">
-        <div class="content border">
+<body class="debug">
 
-          <div class="jumbotron-text">
+  <!-- Header -->
+  <header>
+    <nav class="navbar container border">
+      <div class="navbar-logo border"></div>
+      <div class="navbar-menu border">
+        <ul>
+          <a href="">Scarica</a>
+          <a href="">Perché Discord</a>
+          <a href="">Nitro</a>
+          <a href="">Sicurezza</a>
+          <a href="">Assistenza</a>
+        </ul>
+      </div>
+      <div class="navbar-actions border"><button class="btn btn-white"> Accedi </button></div>
+    </nav>
+
+    <!-- Jumbotron -->
+    <div class="jumbotron">
+      <div class="content border">
+
+        <div class="jumbotron-text">
           <h1>Il tuo posto per parlare</h1>
-          
-          <p>Che tu faccia parte di un club scolastico, gruppo di gamer, comunità artistica modniale, o semplicemente di un piccolo gruppo di amici che vuole passare il tempo assieme, Discord rende più facile chiaccherare ogni giorno e ritrovarsi più spesso</p>
+
+          <p>Che tu faccia parte di un club scolastico, gruppo di gamer, comunità artistica modniale, o semplicemente di
+            un piccolo gruppo di amici che vuole passare il tempo assieme, Discord rende più facile chiaccherare ogni
+            giorno e ritrovarsi più spesso</p>
 
         </div>
 
         <div class="jumbotron-button">
 
-          <button id="download"><i class="fa-solid fa-arrow-down"></i> Scarica per Mac</button>
-          <button id="open-browser">Apri Discord nel tuo browser</button>
-        </div> 
+          <button class="btn btn-white"><i class="fa-solid fa-arrow-down"></i> Scarica per Mac</button>
+          <button class="btn btn-black">Apri Discord nel tuo browser</button>
+        </div>
 
+      </div>
+    </div>
+  </header>
+
+  <!-- Main  -->
+
+  <main>
+    <section class="bg-white border">
+      <div class="container flex border">
+        <div class="large-col border" id="item-one"></div>
+        <div class="small-col border">
+          <h2>Un luogo a invito con tutto lo spazio necessario per parlare</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione est sunt quis dolore aliquid officia
+            veritatis voluptatem consequatur dicta fugit inventore, quam laboriosam quod aperiam? Aspernatur quaerat
+            dolorem necessitatibus porro.</p>
         </div>
       </div>
-    </header>
+    </section>
+    <section class="bg-gray border">
+      <div class="container flex row-reverse">
+        <div class="large-col border" id="item-two"></div>
+        <div class="small-col border">
+          <h2>Dove trovarsi è facile</h2>
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Modi minima iure quia. Dignissimos voluptatem
+            deleniti corporis, exercitationem, dolor sequi culpa illo ullam, perferendis earum quidem architecto
+            aspernatur magni a porro.</p>
+        </div>
+      </div>
+    </section>
+    <section class="bg-white border">
+      <div class="container flex border">
+        <div class="large-col border" id="item-three"></div>
+        <div class="small-col border">
+          <h2>Da pochi a un fandom</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio, ex. Illo ullam atque in eius, quae,
+            dolorum repudiandae, eligendi accusamus aliquid temporibus a amet neque id ab reprehenderit. Consequuntur,
+            sapiente.</p>
+        </div>
+      </div>
+    </section>
+    <section class="bg-gray">
+      <div class="container flex border">
+        <div class="full-col border">
+          <h2>Tecnologia affidabile per tenersi in contatto</h2>
+          <p>Video e audio a bassa latenza to faranno sentire come se foste tutti nella stessa stanza. Fai ciao in
+            video, guarda gli amici giocare in streaming, o riunitevi in una sessione di disegno con la condivisone
+            schermo.</p>
+          <div id="item-four"></div>
+          <img src="../img/stars.svg" alt="stars" id="stars">
+          <h3 class="border">Pronto a inziare la tua avventura?</h3>
+          <button class="btn btn-purple">
+            <i class="fa-solid fa-arrow-down"></i> Scarica per Mac
+          </button>
+        </div>
+      </div>
+    </section>
+  </main>
 
-    <!-- Main  -->
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <div class="footer-top">
+        <div class="footer-left">
+          <h3 class="blue-text">Il tuo posto per parlare</h3>
+          <select name="language" id="">
+            <option value="Italiano">&#127470; Italiano</option>
+            <option value="Italiano">&#127470; Inglese</option>
+            <option value="Italiano">&#127470; Francese</option>
+            <option value="Italiano">&#127470; Tedesco</option>
+          </select>
+          <div id="row">
+            <a href=""><i class="fa-brands fa-twitter"></i></a>
+            <a href=""><i class="fa-brands fa-instagram"></i></a>
+            <a href=""><i class="fa-brands fa-facebook"></i></a>
+            <a href=""><i class="fa-brands fa-youtube"></i></a>
+          </div>
+        </div>
 
-    <main>
-      <section class="bg-white border">
-        <div class="container flex border">
-          <div class="large-col border" id="item-one"></div>
-          <div class="small-col border">
-            <h2>Un luogo a invito con tutto lo spazio necessario per parlare</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione est sunt quis dolore aliquid officia veritatis voluptatem consequatur dicta fugit inventore, quam laboriosam quod aperiam? Aspernatur quaerat dolorem necessitatibus porro.</p>
-          </div>
-        </div>
-      </section>
-      <section class="bg-gray border">
-        <div class="container flex row-reverse">
-          <div class="large-col border" id="item-two"></div>
-          <div class="small-col border">
-            <h2>Dove trovarsi è facile</h2>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Modi minima iure quia. Dignissimos voluptatem deleniti corporis, exercitationem, dolor sequi culpa illo ullam, perferendis earum quidem architecto aspernatur magni a porro.</p>
-          </div>
-        </div>
-      </section>
-      <section class="bg-white border">
-        <div class="container flex border">
-          <div class="large-col border" id="item-three"></div>
-          <div class="small-col border">
-            <h2>Da pochi a un fandom</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio, ex. Illo ullam atque in eius, quae, dolorum repudiandae, eligendi accusamus aliquid temporibus a amet neque id ab reprehenderit. Consequuntur, sapiente.</p>
-          </div>
-        </div>
-      </section>
-      <section class="bg-gray">
-        <div class="container flex border">
-          <div class="full-col border" >
-            <h2>Tecnologia affidabile per tenersi in contatto</h2>
-            <p>Video e audio a bassa latenza to faranno sentire come se foste tutti nella stessa stanza. Fai ciao in video, guarda gli amici giocare in streaming, o riunitevi in una sessione di disegno con la condivisone schermo.</p>
-            <div id="item-four"></div>
-            <img src="../img/stars.svg" alt="stars" id="stars">
-            <h3 class="border">Pronto a inziare la tua avventura?</h3>
-            <button id="download-two"> 
-              <a href="">
-                <i class="fa-solid fa-arrow-down"></i> Scarica per Mac
-              </a>
-            </button>
-          </div>
-        </div>
-      </section>
-    </main>
-
-    <!-- Footer -->
-    <footer>
-      <div class="container">
-        <div class="footer-top">
-          <div class="footer-left">
-            <h3 class="blue-text">Il tuo posto per parlare</h3>
-            <select name="language" id="">
-              <option value="Italiano">&#127470; Italiano</option>
-            </select>
-            <div id="row">
-              <a href=""><i class="fa-brands fa-twitter"></i></a>
-              <a href=""><i class="fa-brands fa-instagram"></i></a>
-              <a href=""><i class="fa-brands fa-facebook"></i></a>
-              <a href=""><i class="fa-brands fa-youtube"></i></a>
-          </div>
+        <div class="footer-right">
+          <nav class="footer-nav border">
+            <div class="nav-col border">
+              <ul>
+                <li><a href="" class="blue-text">Prodotto</a></li>
+                <li><a href="">Scarica</a></li>
+                <li><a href="">Perché</a></li>
+                <li><a href="">Nitro</a></li>
+                <li><a href="">Sicurezza</a></li>
+                <li><a href="">Assistenza</a></li>
+              </ul>
             </div>
-            
-          <div class="footer-right">
-            <nav class="footer-nav border">
-              <div class="nav-col border">
-                <ul>
-                  <li><a href="" class="blue-text">Prodotto</a></li>
-                  <li><a href="">Scarica</a></li>
-                  <li><a href="">Perché</a></li>
-                  <li><a href="">Nitro</a></li>
-                  <li><a href="">Sicurezza</a></li>
-                  <li><a href="">Assistenza</a></li>
-                </ul>
-              </div>
-              <div class="nav-col border">
-                <ul>
-                  <li><a href="" class="blue-text">Compagnia</a></li>
-                  <li><a href="">Chi siamo</a></li>
-                  <li><a href="">Lavora con noi</a></li>
-                  <li><a href="">Marchio</a></li>
-                  <li><a href="">Redazione</a></li>
-                  <li><a href="">Negozio</a></li>
-                </ul>
-              </div>
-              <div class="nav-col border">
-                <ul>
-                  <li><a href="" class="blue-text">Risorse</a></li>
-                  <li><a href="">Scarica</a></li>
-                  <li><a href="">Discord</a></li>
-                  <li><a href="">Nitro</a></li>
-                  <li><a href="">Sicurezza</a></li>
-                  <li><a href="">Assistenza</a></li>
-                  <li><a href="">Scarica</a></li>
-                  <li><a href="">Perchè Discord</a></li>
-                  <li><a href="">Nitro</a></li>
-                  <li><a href="">Sicurezza</a></li>
-                  <li><a href="">Assistenza</a></li>
-                  <li><a href="">Assistenza</a></li>
+            <div class="nav-col border">
+              <ul>
+                <li><a href="" class="blue-text">Compagnia</a></li>
+                <li><a href="">Chi siamo</a></li>
+                <li><a href="">Lavora con noi</a></li>
+                <li><a href="">Marchio</a></li>
+                <li><a href="">Redazione</a></li>
+                <li><a href="">Negozio</a></li>
+              </ul>
+            </div>
+            <div class="nav-col border">
+              <ul>
+                <li><a href="" class="blue-text">Risorse</a></li>
+                <li><a href="">Scarica</a></li>
+                <li><a href="">Discord</a></li>
+                <li><a href="">Nitro</a></li>
+                <li><a href="">Sicurezza</a></li>
+                <li><a href="">Assistenza</a></li>
+                <li><a href="">Scarica</a></li>
+                <li><a href="">Perchè Discord</a></li>
+                <li><a href="">Nitro</a></li>
+                <li><a href="">Sicurezza</a></li>
+                <li><a href="">Assistenza</a></li>
+                <li><a href="">Assistenza</a></li>
 
-                </ul>
-              </div>
-              <div class="nav-col border">
-                <ul>
-                  <li><a href="" class="blue-text">Norme</a></li>
-                  <li><a href="">Scarica</a></li>
-                  <li><a href="">Discord</a></li>
-                  <li><a href="">Nitro</a></li>
-                  <li><a href="">Sicurezza</a></li>
-                  <li><a href="">Assistenza</a></li>
-                </ul>
-              </div>
-            </nav>
-          </div>
-        </div>
-        <div class="footer-bottom">
-          <img src="../img/logo.svg" alt="logo" />
-          <button>Registrati</button>
+              </ul>
+            </div>
+            <div class="nav-col border">
+              <ul>
+                <li><a href="" class="blue-text">Norme</a></li>
+                <li><a href="">Scarica</a></li>
+                <li><a href="">Discord</a></li>
+                <li><a href="">Nitro</a></li>
+                <li><a href="">Sicurezza</a></li>
+                <li><a href="">Assistenza</a></li>
+              </ul>
+            </div>
+          </nav>
         </div>
       </div>
-    </footer>
-  </body>
+      <div class="footer-bottom">
+        <img src="../img/logo.svg" alt="logo" />
+        <button class="btn btn-purple">Registrati</button>
+      </div>
+    </div>
+  </footer>
+</body>
+
 </html>
