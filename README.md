@@ -1,4 +1,4 @@
-# 🎮 Playstation Clone Project
+# 🎮 Discord Clone Project
 
 Welcome to the Dicord Clone Project repository! Here, you'll find a static remake of the beloved Discord homepage website.
 
